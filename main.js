@@ -1,7 +1,7 @@
 //const Block = require('./block');
 const Blockchain = require('./blockchain');
 
-const blockchain = new Blockchain('Hello World')
+const blockchain = new Blockchain('Hello World');
 
 let i = 2
 while(i != 11){
@@ -10,7 +10,3 @@ while(i != 11){
 }
 
 console.log(blockchain);
-
-// Requerimientos:
-    // readme.md
-        //nombre, que hace, como se ejecuta
