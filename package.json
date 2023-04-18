@@ -1,0 +1,18 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "Exemple to Blockchain",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node main.js"
+  },
+  "keywords": [
+    "blockchainDemo"
+  ],
+  "author": "Juan Díaz",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
