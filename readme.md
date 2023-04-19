@@ -12,9 +12,9 @@ Vamos a aplicar nuestros conocimientos adquiridos de Javascript y  de Node.Js pa
 
 * 1.- Genera una clase Block como modelo con los siguientes atributos: 
 
-   * a.- Index = Identificador de la posición del bloque en la cadena.
-   * b.- Data = El contenido del bloque
-   * c.- previousHash = Valor del bloque anterior de la cadena
+   * a. Index = Identificador de la posición del bloque en la cadena.
+   * b. Data = El contenido del bloque
+   * c. previousHash = Valor del bloque anterior de la cadena
 
 * 2.- Genera una clase Blockchain.
 
@@ -54,9 +54,9 @@ Se inicializa con un primer bloque, que es el primer bloque de la cadena y tambi
 
 La clase cuenta con metodos como:
 
-* createFirstBlock: Para crear el primer bloque de la cadena.
-* getLastBlock: Para obtener el bloque pasado.
-* addBlock: Para añadir un bloque a la cadena.
+* `createFirstBlock`: Para crear el primer bloque de la cadena.
+* `getLastBlock`: Para obtener el bloque pasado.
+* `addBlock`: Para añadir un bloque a la cadena.
 
 ## Instrucciones de uso
 
@@ -72,7 +72,7 @@ Para utilizar este script, sigue los siguiente pasos:
 ```js
 const blockchain = new Blockchain('Hello World');
 ```
-cambiando el `Hello World` por la cadena de caracteres que usted quiere que se le pase al primer bloque de la cadena.
+Se deberá cambiar el parametro de: `Hello World` por la cadena de caracteres que usted quiere que se le pase al primer bloque de la cadena.
 
 * 5 .- Ejecute el siguiente comando en la terminal para ejecutar el script:
 
@@ -80,6 +80,6 @@ cambiando el `Hello World` por la cadena de caracteres que usted quiere que se l
 node main.js
 ```
 
-El programa agregará automáticamente 9 bloques a la cadena de bloques con datos de ejemplo. Puedes modificar el número de bloques que se agregan modificando la variable `i` en el archivo node.js.
+El programa agregará automáticamente 9 bloques (en este caso) a la cadena de bloques con datos de ejemplo. Puedes modificar el número de bloques que se agregan modificando la variable `i` en el archivo node.js.
 
 Siéntete libre de clonar este repositorio y probar el funcionamiento del blockchain. ¡Espero que te sea útil!
